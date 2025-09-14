@@ -1,0 +1,80 @@
+MERN:
+
+mongodb
+express
+reactjs
+nodejs
+
+
+----------------------------------
+Facebook: PHP.... back end ,frontend,....
+	: sec.... PHP -> tech -->
+	: [b,f.....] PHP
+        : [f,b]-->java
+
+mondular arch N tire application
+frontend tehc:
+backend  tech:
+
+Angular:
+Facebook has develop new fw : react js
+Frontend framework:
+
+framework:
+comon logic:h1
+business logic:
+
+
+
+React js fw / library
+
+node js install
+
+-------------------------------------------------------------------------------
+
+
+JDK:jvm,jre -->jar --> packages -->class -->methods
+
+npm:-->node_modules --> build/dist  --> packages --> .js /.ts --> functions
+-------------------------
+NPM: node package manager:
+
+
+internally nodejs -->
+
+
+d:
+ projects:
+	mern:
+	  ctl + l -->cmd enter
+
+cmd:
+  npm create vite
+	learning25
+        react
+	javascript
+ cd learning25
+ npm install
+ code .
+
+
+
+index.hytml ---> main.jsx[src] --> app.js[]
+
+
+component based arch:
+
+2 type component : class based comp
+	         : function bases comp : 16 --->
+
+
+
+
+if export ocnst ---> import as {}
+if export default import without {}
+
+
+styling:
+intenra;
+external
+inline
