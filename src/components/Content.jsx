@@ -28,10 +28,13 @@ export const Content = () => {
       <h1>HELLO</h1>
       {name}
       <h1 style={{color:"orange"}}>name = {name}</h1>
-      <h2>Year = {year}</h2>
+
+      <h2 style={{color:year>2000 ? "green":"yellow"}}>Year = {year}</h2>
+
       <h2>Superpower = {isSuperPower == true ? "Yes" : "No"}</h2>
       <h1>Namme = {country.name}</h1>
-      <h2>year = {country.year}</h2>
+      <h2 style={{color:country.year>2015 ?"red":"black"}}>year = {country.year}</h2>
+      <h2 style={{color:country.year>2015 && "red"}}>year = {country.year}</h2>
       <h3>Kand = {country.kand}</h3>
     </div>
   );
