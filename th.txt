@@ -92,3 +92,14 @@ ratings: 9> best seller : highlight
 2025 current
 2024 previous year:
 2026 next year
+
+functial component, class based comp:
+state varible:
+
+hook: builtin fun, or user define,or life cycle which starts with use prefix
+useState
+
+
+
+DOM: document:
+virtual dom:
