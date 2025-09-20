@@ -78,3 +78,17 @@ styling:
 intenra;
 external
 inline
+
+
+
+Books--> id name price author, rartings,relese year
+
+1000 > costly
+500 modrate
+
+ratings: 9> best seller : highlight
+5< : not worth to buy
+
+2025 current
+2024 previous year:
+2026 next year
