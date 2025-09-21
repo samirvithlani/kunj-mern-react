@@ -10,17 +10,16 @@ import { MapDemo3 } from "./components/MapDemo3";
 import { MapDemo4 } from "./components/MapDemo4";
 import { UseStateDemo1 } from "./components/UseStateDemo1";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
+import { Employees } from "./components/Employees";
 
 function App() {
+
+  var title = "REACT JS"
+
   return (
     <div>
-      <Header></Header>
-      {/* <Content /> */}
-      {/* <MapDemo1/> */}
-      {/* <MapDemo2/> */}
-      {/* <MapDemo4/> */}
-      {/* <UseStateDemo1/> */}
-      <UseStateDemo2></UseStateDemo2>
+      <Header title = {title}></Header>
+      <Employees title = {title}></Employees>
       <Footer></Footer>
     </div>
   );

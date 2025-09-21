@@ -99,7 +99,18 @@ state varible:
 hook: builtin fun, or user define,or life cycle which starts with use prefix
 useState
 
-
-
 DOM: document:
 virtual dom:
+
+communication bw components:
+props : parent to child
+
+props stands for property:
+props is immutable
+
+immidiate child component can have data...
+a->b - - ->c
+props drilling...
+------------------------
+context : parent to child
+redux: no need of relation..
