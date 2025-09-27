@@ -11,6 +11,7 @@ import { MapDemo4 } from "./components/MapDemo4";
 import { UseStateDemo1 } from "./components/UseStateDemo1";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
 import { Employees } from "./components/Employees";
+import { InputDemo1 } from "./components/InputDemo1";
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
   return (
     <div>
       <Header title = {title}></Header>
-      <Employees title = {title}></Employees>
+      {/* <Employees title = {title}></Employees> */}
+      <InputDemo1></InputDemo1>
       <Footer></Footer>
     </div>
   );

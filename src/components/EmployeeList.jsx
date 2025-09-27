@@ -27,6 +27,7 @@ export const EmployeeList = (props) => {
                 <td>{emp.age}</td>
                 <td>
                   <button onClick={()=>{props.findEmployee(emp.id)}} className="btn btn-info">INFO</button>
+                  <button style={{marginLeft:"10px"}} onClick={()=>{props.deleteEmployee(emp.id)}} className="btn btn-danger">DELETE</button>
                 </td>
               </tr>
             })

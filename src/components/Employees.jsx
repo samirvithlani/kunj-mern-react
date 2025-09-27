@@ -17,6 +17,14 @@ export const Employees = (props) => {
 
   }
 
+  const deleteEmployee = (id)=>{
+      // var x = employees.filter((emp)=>emp.id!==id)
+      // console.log(x)
+      // setemployees(x)
+
+      setemployees(employees.filter((emp)=>emp.id!==id))
+  }
+
   const [employees, setemployees] = useState([
     {
       id:1,
@@ -40,7 +48,7 @@ export const Employees = (props) => {
     <div style={{textAlign:"center"}}>
         <h1>EMPLOYEE COMPONENT</h1>
         <EmployeeList emp={employee} title ={props.title} employees = {employees} 
-        findEmployee = {findEmployee} ></EmployeeList>
+        findEmployee = {findEmployee} deleteEmployee = {deleteEmployee}></EmployeeList>
     </div>
   )
 }
