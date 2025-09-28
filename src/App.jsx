@@ -12,6 +12,7 @@ import { UseStateDemo1 } from "./components/UseStateDemo1";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
 import { Employees } from "./components/Employees";
 import { InputDemo1 } from "./components/InputDemo1";
+import { DepedentDropDown } from "./components/DepedentDropDown";
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
     <div>
       <Header title = {title}></Header>
       {/* <Employees title = {title}></Employees> */}
-      <InputDemo1></InputDemo1>
+      <DepedentDropDown></DepedentDropDown>
       <Footer></Footer>
     </div>
   );

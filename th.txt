@@ -114,3 +114,7 @@ props drilling...
 ------------------------
 context : parent to child
 redux: no need of relation..
+
+
+
+Component: countries:[""india]
