@@ -13,6 +13,10 @@ import { UseStateDemo2 } from "./components/UseStateDemo2";
 import { Employees } from "./components/Employees";
 import { InputDemo1 } from "./components/InputDemo1";
 import { DepedentDropDown } from "./components/DepedentDropDown";
+import { Route, Routes } from "react-router-dom";
+import { Navbar } from "./components/Navbar";
+import { NetflixHome } from "./components/NetflixHome";
+import { NetflixShows } from "./components/NetflixShows";
 
 function App() {
 
@@ -20,10 +24,11 @@ function App() {
 
   return (
     <div>
-      <Header title = {title}></Header>
-      {/* <Employees title = {title}></Employees> */}
-      <DepedentDropDown></DepedentDropDown>
-      <Footer></Footer>
+      <Navbar></Navbar>
+     <Routes>
+        <Route path="/netflixhome" element={<NetflixHome/>}></Route>
+        <Route path="/netflixshows" element ={<NetflixShows/>}></Route>
+     </Routes>
     </div>
   );
 }

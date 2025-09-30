@@ -118,3 +118,18 @@ redux: no need of relation..
 
 
 Component: countries:[""india]
+
+react routing:
+
+Single page application:
+html
+routing:
+npm i react-router-dom
+
+<BrowserRouter> : enble routing in react application
+<Routes>
+	<Route>
+	<Route>
+	<Route>
+	<Route>
+	
