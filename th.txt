@@ -135,3 +135,21 @@ npm i react-router-dom
 
 form handling:
 npm i react-hook-form	useForm()
+
+handleSubmit(cb)=>{
+	//state ..inpu
+	{}
+	cb({})
+}
+{
+            required:{
+                value:true,
+                message:"age is required"
+            }
+}
+{
+	required:{
+		value:true,
+		message:"Name is Required*"
+		}
+}
