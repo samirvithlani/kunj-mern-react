@@ -21,6 +21,7 @@ import { MyHome } from "./components/MyHome";
 import { Error404 } from "./components/Error404";
 import { PlayContent } from "./components/PlayContent";
 import { NetflixMovies } from "./components/NetflixMovies";
+import { FormDemo1 } from "./forms/FormDemo1";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="/netflixshows" element ={<NetflixShows/>}></Route>
         <Route path="/playcontent/:name" element ={<PlayContent/>}></Route>
         <Route path="/netflixmovies" element ={<NetflixMovies/>}></Route>
+        <Route path="/formdemo1" element = {<FormDemo1/>}></Route>
         <Route path="/*" element = {<Error404/>}></Route>
      </Routes>
     </div>

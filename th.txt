@@ -132,4 +132,6 @@ npm i react-router-dom
 	<Route>
 	<Route>
 	<Route>
-	
+
+form handling:
+npm i react-hook-form	useForm()
