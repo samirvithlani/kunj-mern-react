@@ -2,7 +2,7 @@ import React from 'react'
 import { get, useForm } from 'react-hook-form'
 
 export const FormDemo5 = () => {
-    const {register,handleSubmit,formState:{errors}} = useForm({mode:"all"})
+    const {register,handleSubmit,formState:{errors}} = useForm({mode:"all",defaultValues:{"name":"test"}})
     console.log("errors....",errors)//{}
     var inqCodeList = ["royal","dhiraj","mihir","jagrut"]
     const submitHandler =(data)=>{
