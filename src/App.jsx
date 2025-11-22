@@ -29,6 +29,7 @@ import { FormDemo5 } from "./forms/FormDemo5";
 import { FormDemo6 } from "./forms/FormDemo6";
 import { FormDemo7 } from "./forms/FormDemo7";
 import { MultiStepForm } from "./forms/MultiStepForm";
+import { ApiDemo1 } from "./api/ApiDemo1";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/formdemo6" element = {<FormDemo6/>}></Route>
         <Route path="/formdemo7" element = {<FormDemo7/>}></Route>
         <Route path="/multistepform" element = {<MultiStepForm/>}></Route>
+        <Route path="/apidemo1" element = {<ApiDemo1/>}></Route>
         <Route path="/*" element = {<Error404/>}></Route>
      </Routes>
     </div>

@@ -21,7 +21,7 @@ export const Navbar = () => {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          {/* <li class="nav-item active">
             <Link class="nav-link" to="/netflixhome">
               Home 
             </Link>
@@ -71,7 +71,13 @@ export const Navbar = () => {
               multistepform
             </Link>
           </li>
-          
+           */}
+
+           <li class="nav-item">
+            <Link class="nav-link" to="/apidemo1">
+              API DEMO 1
+            </Link>
+          </li>
           
           
         </ul>
