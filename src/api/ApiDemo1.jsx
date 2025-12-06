@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Loader } from '../components/Loader'
 
 export const ApiDemo1 = () => {
@@ -30,13 +30,16 @@ export const ApiDemo1 = () => {
             getApiCall()
         }
     }
+    useEffect(()=>{
+        getApiCall()
+    },[])
 
   return (
     <div style={{textAlign:"center"}}>
         {
             isLoading && <Loader/>
         }
-        <button onClick={()=>{getApiCall()}}>GET</button>
+        {/* <button onClick={()=>{getApiCall()}}>GET</button> */}
         <h1>API DEMO 1</h1>
         {message}
         <table className='table table-dark'>

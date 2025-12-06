@@ -203,6 +203,12 @@ and i -->imdbId
 HTTP STATUS:
 200 --ok
 
+Lifecyle part..
+component lifecyle :
+mount, unmount
+
+hook: useEffect : to handle side effect in functional component we can use useEffect hook
+
 
 
 
