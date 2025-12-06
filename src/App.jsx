@@ -32,6 +32,7 @@ import { MultiStepForm } from "./forms/MultiStepForm";
 import { ApiDemo1 } from "./api/ApiDemo1";
 import { ApiDemo2 } from "./api/ApiDemo2";
 import { UseEffectDemo1 } from "./components/UseEffectDemo1";
+import { ApiDemo3 } from "./api/ApiDemo3";
 
 function App() {
 
@@ -55,6 +56,7 @@ function App() {
         <Route path="/multistepform" element = {<MultiStepForm/>}></Route>
         <Route path="/apidemo1" element = {<ApiDemo1/>}></Route>
         <Route path="/apidemo2" element = {<ApiDemo2/>}></Route>
+        <Route path="/apidemo3" element = {<ApiDemo3/>}></Route>
         <Route path = "/useeffectdemo" element = {<UseEffectDemo1/>}></Route>
         <Route path="/*" element = {<Error404/>}></Route>
      </Routes>
