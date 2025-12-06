@@ -196,7 +196,12 @@ API --> zomato google server busy --> data load time
 then catch
 async await
 
+movieDeatil : id --> useParams -->imdb id
+url will same -->param change to id
+and i -->imdbId
 
+HTTP STATUS:
+200 --ok
 
 
 
