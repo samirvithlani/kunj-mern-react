@@ -79,6 +79,11 @@ export const Navbar = () => {
             </Link>
           </li>
           <li class="nav-item">
+            <Link class="nav-link" to="/apidemo11">
+              API DEMO 11
+            </Link>
+          </li>
+          <li class="nav-item">
             <Link class="nav-link" to="/apidemo2">
               API DEMO 2
             </Link>

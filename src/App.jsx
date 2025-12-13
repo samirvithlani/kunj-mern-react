@@ -35,6 +35,7 @@ import { UseEffectDemo1 } from "./components/UseEffectDemo1";
 import { ApiDemo3 } from "./api/ApiDemo3";
 import { Bounce, ToastContainer } from "react-toastify";
 import { UpdateUser } from "./api/UpdateUser";
+import { ApiDemo11 } from "./api/ApiDemo11";
 
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
         <Route path="/formdemo7" element={<FormDemo7 />}></Route>
         <Route path="/multistepform" element={<MultiStepForm />}></Route>
         <Route path="/apidemo1" element={<ApiDemo1 />}></Route>
+        <Route path="/apidemo11" element={<ApiDemo11 />}></Route>
         <Route path="/apidemo2" element={<ApiDemo2 />}></Route>
         <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
         <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
