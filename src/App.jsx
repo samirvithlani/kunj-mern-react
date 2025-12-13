@@ -33,33 +33,49 @@ import { ApiDemo1 } from "./api/ApiDemo1";
 import { ApiDemo2 } from "./api/ApiDemo2";
 import { UseEffectDemo1 } from "./components/UseEffectDemo1";
 import { ApiDemo3 } from "./api/ApiDemo3";
+import { Bounce, ToastContainer } from "react-toastify";
+import { UpdateUser } from "./api/UpdateUser";
+
 
 function App() {
-
-  var title = "REACT JS"
+  var title = "REACT JS";
 
   return (
     <div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        transition={Bounce}
+      />
       <Navbar></Navbar>
-     <Routes>
-        <Route path="/" element = {<MyHome/>}></Route>
-        <Route path="/netflixhome" element={<NetflixHome/>}></Route>
-        <Route path="/netflixshows" element ={<NetflixShows/>}></Route>
-        <Route path="/playcontent/:name" element ={<PlayContent/>}></Route>
-        <Route path="/netflixmovies" element ={<NetflixMovies/>}></Route>
-        <Route path="/formdemo1" element = {<FormDemo1/>}></Route>
-        <Route path="/formdemo2" element = {<FormDemo2/>}></Route>
-        <Route path="/formdemo3" element = {<FormDemo3/>}></Route>
-        <Route path="/formdemo4" element = {<FormDemo5/>}></Route>
-        <Route path="/formdemo6" element = {<FormDemo6/>}></Route>
-        <Route path="/formdemo7" element = {<FormDemo7/>}></Route>
-        <Route path="/multistepform" element = {<MultiStepForm/>}></Route>
-        <Route path="/apidemo1" element = {<ApiDemo1/>}></Route>
-        <Route path="/apidemo2" element = {<ApiDemo2/>}></Route>
-        <Route path="/apidemo3" element = {<ApiDemo3/>}></Route>
-        <Route path = "/useeffectdemo" element = {<UseEffectDemo1/>}></Route>
-        <Route path="/*" element = {<Error404/>}></Route>
-     </Routes>
+      <Routes>
+        <Route path="/" element={<MyHome />}></Route>
+        <Route path="/netflixhome" element={<NetflixHome />}></Route>
+        <Route path="/netflixshows" element={<NetflixShows />}></Route>
+        <Route path="/playcontent/:name" element={<PlayContent />}></Route>
+        <Route path="/netflixmovies" element={<NetflixMovies />}></Route>
+        <Route path="/formdemo1" element={<FormDemo1 />}></Route>
+        <Route path="/formdemo2" element={<FormDemo2 />}></Route>
+        <Route path="/formdemo3" element={<FormDemo3 />}></Route>
+        <Route path="/formdemo4" element={<FormDemo5 />}></Route>
+        <Route path="/formdemo6" element={<FormDemo6 />}></Route>
+        <Route path="/formdemo7" element={<FormDemo7 />}></Route>
+        <Route path="/multistepform" element={<MultiStepForm />}></Route>
+        <Route path="/apidemo1" element={<ApiDemo1 />}></Route>
+        <Route path="/apidemo2" element={<ApiDemo2 />}></Route>
+        <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
+        <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
+        <Route path="/updateuser/:id" element = {<UpdateUser/>}></Route>
+        <Route path="/*" element={<Error404 />}></Route>
+      </Routes>
     </div>
   );
 }

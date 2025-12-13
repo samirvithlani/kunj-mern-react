@@ -209,6 +209,10 @@ mount, unmount
 
 hook: useEffect : to handle side effect in functional component we can use useEffect hook
 
+profile: old data --> edit --> update..
+
+update --> id --> new component -->id -->old data database .. form fill.. -->eidt...
+
 
 
 

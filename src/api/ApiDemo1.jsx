@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Loader } from "../components/Loader";
 import { Button, Modal } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const ApiDemo1 = () => {
   //DELETE//https://node5.onrender.com/user/user/salnshashsau98y3u892us
@@ -94,6 +95,7 @@ export const ApiDemo1 = () => {
                   >
                     INFO
                   </button>
+                  <Link className="btn btn-warning" to={`/updateuser/${user._id}`}>UPDATE</Link>
                 </td>
               </tr>
             );
