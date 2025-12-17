@@ -36,13 +36,18 @@ import { ApiDemo3 } from "./api/ApiDemo3";
 import { Bounce, ToastContainer } from "react-toastify";
 import { UpdateUser } from "./api/UpdateUser";
 import { ApiDemo11 } from "./api/ApiDemo11";
+import { Books } from "./components/Books";
+import { useState } from "react";
+import { ThemeContext } from "./context/ThemeContext";
 
 
 function App() {
   var title = "REACT JS";
+  const [theme, settheme] = useState("light")
 
   return (
-    <div>
+    <div style={{backgroundColor:theme=="light"?"white":"black",color:theme=="light"?"black":"white"}}>
+      <ThemeContext.Provider value={{theme,settheme}}>
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -76,8 +81,11 @@ function App() {
         <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
         <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
         <Route path="/updateuser/:id" element = {<UpdateUser/>}></Route>
+        <Route path="/books" element = {<Books></Books>}></Route>
+
         <Route path="/*" element={<Error404 />}></Route>
       </Routes>
+      </ThemeContext.Provider>
     </div>
   );
 }

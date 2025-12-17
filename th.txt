@@ -220,4 +220,22 @@ localStorage.setItem("token",res.data.data)
 cutome Hook
 
 
+context:
+component based arch:
+parent child component:
+A -->B props
+A --> B --->C
+A -->b consume ---> props -->c
+props drillling
+
+Pipeline: -->A -->100 ->z
+context Api:
+
+small auth :
+theme manage
+
+
+redux:
+
+
 
