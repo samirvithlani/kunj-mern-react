@@ -39,6 +39,7 @@ import { ApiDemo11 } from "./api/ApiDemo11";
 import { Books } from "./components/Books";
 import { useState } from "react";
 import { ThemeContext } from "./context/ThemeContext";
+import { UseMemoDemo1 } from "./components/UseMemoDemo1";
 
 
 function App() {
@@ -82,7 +83,7 @@ function App() {
         <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
         <Route path="/updateuser/:id" element = {<UpdateUser/>}></Route>
         <Route path="/books" element = {<Books></Books>}></Route>
-
+        <Route path="/usememo" element = {<UseMemoDemo1/>}></Route>
         <Route path="/*" element={<Error404 />}></Route>
       </Routes>
       </ThemeContext.Provider>
