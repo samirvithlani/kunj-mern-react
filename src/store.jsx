@@ -4,6 +4,7 @@ import cartReducer from "./redux/CartSlice" //default export..
 export const store = configureStore({
     //reducers
     reducer:{
-        cart:cartReducer
+        cart:cartReducer //data...
     }
 })
+

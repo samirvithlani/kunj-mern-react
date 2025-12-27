@@ -1,9 +1,14 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../context/ThemeContext";
+import { useSelector } from "react-redux";
 
 export const Navbar = () => {
   const {theme,settheme} = useContext(ThemeContext)
+  //use Selector hook
+  const state = useSelector((state)=>state)
+  
+  console.log(state)
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">
@@ -120,6 +125,10 @@ export const Navbar = () => {
             <Link class="nav-link" to="/products">
               products
             </Link>
+          </li>
+
+          <li class="nav-item">
+            <h4>CART {state.cart.cart.length}</h4>
           </li>
    
         </ul>
