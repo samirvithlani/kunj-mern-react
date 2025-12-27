@@ -281,7 +281,26 @@ action export.. for components...
 componnet click --> dispatch action call --> payload
 
 
+____________________________________________
+create cart component: data -- store.. table....
 
+remove from cart... action
+
+1st task
+
+create bank componnet:
+
+	form: 500
+create bank slice
+
+
+
+withdrwaction
+depositaction
+hint:take initalbal =0 not array
+hint parseInt
+
+print balance in navbar..
 
 
 

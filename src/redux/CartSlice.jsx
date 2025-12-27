@@ -19,6 +19,7 @@ const cartSlice = createSlice({
             state.cart.push(action.payload)
 
         }
+        ///filter...
     }
 })
 export const {addToCart} = cartSlice.actions
