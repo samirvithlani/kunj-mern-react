@@ -239,6 +239,48 @@ redux:
 AuthContext:
 Login.. token
 
+REDUX:
+1 -->2 props
+1->2-->3-->4 context
+
+component relation..
+redux: 3rd party state management tool:
+banking app , ecomm, otts....
+
+trd.. redux
+redux toolkit:
+
+npm install react-redux
+npm install @reduxjs/toolkit
+
+
+store
+reducer
+action
+dispatch
+
+Actions: Actions are plain JavaScript objects that represent events or user interactions. They describe what happened in the application. Actions must have a “type” property that describes the action’s purpose.
+
+Reducers: Reducers are pure functions that take the current state and an action as arguments and return a new state. They are responsible for updating the state based on the given action.
+
+dispatch hook: use for calling action -from component
+
+main.jsx --> store -->load reducer ->actions,reducer,initalData,name
+
+
+impl:
+create store.jsx in src
+bind store in main.jsx
+
+:redx folder:
+slice : action..
+
+reduxer --> store
+action export.. for components...
+
+componnet click --> dispatch action call --> payload
+
+
 
 
 

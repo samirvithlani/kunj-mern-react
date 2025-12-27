@@ -40,6 +40,7 @@ import { Books } from "./components/Books";
 import { useState } from "react";
 import { ThemeContext } from "./context/ThemeContext";
 import { UseMemoDemo1 } from "./components/UseMemoDemo1";
+import { ProductComponent } from "./components/ProductComponent";
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
         <Route path="/updateuser/:id" element = {<UpdateUser/>}></Route>
         <Route path="/books" element = {<Books></Books>}></Route>
         <Route path="/usememo" element = {<UseMemoDemo1/>}></Route>
+        <Route path="/products" element = {<ProductComponent/>}></Route>
         <Route path="/*" element={<Error404 />}></Route>
       </Routes>
       </ThemeContext.Provider>
