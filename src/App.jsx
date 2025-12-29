@@ -41,6 +41,7 @@ import { useState } from "react";
 import { ThemeContext } from "./context/ThemeContext";
 import { UseMemoDemo1 } from "./components/UseMemoDemo1";
 import { ProductComponent } from "./components/ProductComponent";
+import { ContentComponent } from "./components/ContentComponent";
 
 
 function App() {
@@ -87,6 +88,7 @@ function App() {
         <Route path="/usememo" element = {<UseMemoDemo1/>}></Route>
         <Route path="/products" element = {<ProductComponent/>}></Route>
         <Route path="/*" element={<Error404 />}></Route>
+        <Route path="/content" element ={<ContentComponent/>}></Route>
       </Routes>
       </ThemeContext.Provider>
     </div>

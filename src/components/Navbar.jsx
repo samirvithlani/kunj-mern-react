@@ -126,6 +126,13 @@ export const Navbar = () => {
               products
             </Link>
           </li>
+          
+          
+          <li class="nav-item">
+            <Link class="nav-link" to="/content">
+              content
+            </Link>
+          </li>
 
           <li class="nav-item">
             <h4>CART {state.cart.cart.length}</h4>
