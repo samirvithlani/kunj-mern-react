@@ -42,6 +42,8 @@ import { ThemeContext } from "./context/ThemeContext";
 import { UseMemoDemo1 } from "./components/UseMemoDemo1";
 import { ProductComponent } from "./components/ProductComponent";
 import { ContentComponent } from "./components/ContentComponent";
+import { MuiDemo1 } from "./mui/MuiDemo1";
+import { MuiDemo2 } from "./mui/MuiDemo2";
 
 
 function App() {
@@ -89,6 +91,7 @@ function App() {
         <Route path="/products" element = {<ProductComponent/>}></Route>
         <Route path="/*" element={<Error404 />}></Route>
         <Route path="/content" element ={<ContentComponent/>}></Route>
+        <Route path="/muidemo1" element = {<MuiDemo2/>}></Route>
       </Routes>
       </ThemeContext.Provider>
     </div>
